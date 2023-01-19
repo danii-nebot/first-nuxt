@@ -1,0 +1,23 @@
+.cool-enter-active,
+.cool-leave-active {
+  transition: all 0.4s;
+}
+.cool-enter-from,
+.cool-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: all 0.5s;
+}
+.layout-enter-from {
+  opacity: 0;
+  transform: translate(-150px, 0);
+}
+
+.layout-leave-to {
+  opacity: 0;
+  transform: translate(150px, 0);
+}
